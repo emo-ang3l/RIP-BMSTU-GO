@@ -1,0 +1,15 @@
+# Упрощенный Dockerfile - используем обычный golang образ вместо alpine
+FROM golang:1.21
+
+WORKDIR /app
+
+# Копируем файлы
+COPY go.mod main.go ./
+
+# Собираем приложение
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o calculation-service .
+
+EXPOSE 8080
+
+CMD ["./calculation-service"]
+

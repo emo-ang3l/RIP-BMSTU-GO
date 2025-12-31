@@ -1,0 +1,32 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/target/
+frontend/src-tauri/target/
+frontend/src-tauri/.tauri/
+frontend/*.pdb
+frontend/*.rlib
+frontend/*.lib
+frontend/*.exe
+frontend/*.dll
+frontend/.env
+frontend/.DS_Store
+frontend/dev-dist/
+
+# Backend
+3LABRIP/venv/
+3LABRIP/__pycache__/
+3LABRIP/*.pyc
+3LABRIP/*.sqlite3
+3LABRIP/staticfiles/
+3LABRIP/*.log
+3LABRIP/.DS_Store
+
+# General
+.DS_Store
+*.log
+.env
+.idea/
+.vscode/
+

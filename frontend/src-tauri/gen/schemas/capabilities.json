@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Capability for the main window","local":true,"windows":["main"],"permissions":["cors-fetch:default",{"identifier":"http:default","allow":[{"url":"http://192.168.56.1:8000/**"},{"url":"http://192.168.56.1:9000/**"}]},"core:default","http:allow-fetch","http:allow-fetch-read-body","http:allow-fetch-send"]}}
